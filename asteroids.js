@@ -641,7 +641,7 @@ function Asteroids() {
 	this.gameContainer.appendChild(this.canvas);
 	this.ctx = this.canvas.getContext("2d");
 
-	this.ctx.fillStyle = "black";
+	this.ctx.fillStyle = "white";
 	this.ctx.strokeStyle = "black";
 
 	// navigation wrapper element
