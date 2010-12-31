@@ -298,9 +298,9 @@ function Asteroids() {
 
 	addStylesheet(".ASTEROIDSBLINK .ASTEROIDSYEAHENEMY", "outline: 2px dotted red;");
 
-	this.pos = new Vector(100, 100);
+	this.pos = new Vector(30, 50);
 	this.lastPos = false;
-	this.vel = new Vector(0, 0);
+	this.vel = new Vector(0, 500);
 	this.dir = new Vector(0, 1);
 	this.keysPressed = {};
 	this.firedAt = false;
